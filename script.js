@@ -1,4 +1,4 @@
-const menuItems = ["Iced Lattes", "Espresso Shots", "Green Tea", "Blueberry Muffin", "Hot Coffee", "Matcha"];
+const menuItems = ["Iced Lattes", "Espresso Shots", "Green Tea", "Hot Coffee", "Matcha", "Blueberry Muffin", "Chocolate Muffin", "Egg and Cheese Breakfast Sandwhich", "Cake Pops"];
 
 const menuList = document.getElementById("menu-list");
 
