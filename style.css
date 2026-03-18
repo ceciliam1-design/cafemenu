@@ -27,3 +27,14 @@ h1 {
   border: 2px solid #a5d6a7; 
   font-weight: bold;
 }
+#show-special {
+  padding: 10px 20px;
+  background: #ffe600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#daily-special {
+  margin-top: 15px;
+  font-style: italic;
+}
