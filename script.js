@@ -15,4 +15,14 @@ const display = document.getElementById("daily-special");
 button.addEventListener("click", () => {
   const randomItem = menuItems[Math.floor(Math.random() * menuItems.length)];
   display.textContent = `Today's Special: ${randomItem}`;
+
+  body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+body {
+  background-color: white;
+  color: pink;
+}
+
 });
