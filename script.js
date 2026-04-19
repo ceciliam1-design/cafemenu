@@ -11,14 +11,31 @@ menuItems.forEach(function(item) {
   li.textContent = item;
   menuList.appendChild(li);
 }); 
+const menuItems = [
+    "Espresso - $3.00",
+    "Cafe Latte - $4.50",
+    "Chocolate Croissant - $3.75",
+    "Green Tea - $3.25"
+];
 
+const listContainer = document.getElementById('menu-list');
+
+menuItems.forEach(item => {
+    const li = document.createElement('li');
+    li.textContent = item;
+    listContainer.appendChild(li);
+});
+
+function toggleMode() {
+    document.body.classList.toggle('dark-mode');
+}
+
+document.getElementById('show-special').addEventListener('click', () => {
+    const specialText = document.getElementById('daily-special');
+    specialText.textContent = "Today's Special: Caramel Macchiato & Lemon Cake!";
+});
 const button = document.getElementById("show-special");
 const display = document.getElementById("daily-special");
-
-button.addEventListener("click", () => {
-  const randomItem = menuItems[Math.floor(Math.random() * menuItems.length)];
-  display.textContent = `Today's Special: ${randomItem}`;
-});
 
 function toggleMode() {
   document.body.classList.toggle("dark-mode");
