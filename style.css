@@ -27,6 +27,7 @@ h1 {
   border: 2px solid #a5d6a7; 
   font-weight: bold;
 }
+
 #show-special {
   padding: 10px 20px;
   background: #ffe600;
@@ -34,18 +35,18 @@ h1 {
   border-radius: 6px;
   cursor: pointer;
 }
+
 #daily-special {
   margin-top: 15px;
   font-style: italic;
 }
+
 img {
   display: block;
   margin: 20px auto;
   border-radius: 20px;
 }
-<button onclick="toggleMode()">Toggle Day/Night Mode</button>
 
-  <script src="script.js"></script>
 body.dark-mode {
   background-color: #1a1210; 
   color: #f9e6ec;            
@@ -60,5 +61,3 @@ body.dark-mode #menu-list li {
   color: #f7d6e0;           
   border: 2px solid #5c3a2e;
 }
-</body>
-</html>
