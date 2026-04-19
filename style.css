@@ -43,3 +43,8 @@ img {
   margin: 20px auto;
   border-radius: 20px;
 }
+<button onclick="toggleMode()">Toggle Day/Night Mode</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
