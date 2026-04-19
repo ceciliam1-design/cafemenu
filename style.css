@@ -46,5 +46,19 @@ img {
 <button onclick="toggleMode()">Toggle Day/Night Mode</button>
 
   <script src="script.js"></script>
+body.dark-mode {
+  background-color: #1a1210; 
+  color: #f9e6ec;            
+}
+
+body.dark-mode h1 {
+  color: #a5d6a7;           
+}
+
+body.dark-mode #menu-list li {
+  background: #3e2723;       
+  color: #f7d6e0;           
+  border: 2px solid #5c3a2e;
+}
 </body>
 </html>
