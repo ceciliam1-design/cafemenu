@@ -28,6 +28,13 @@ h1 {
   font-weight: bold;
 }
 
+.faq-answer {
+  display: none;
+}
+.faq-answer.show {
+  display: block;
+}
+
 #show-special {
   padding: 10px 20px;
   background: #ffe600;
