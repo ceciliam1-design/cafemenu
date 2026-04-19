@@ -33,6 +33,13 @@ function toggleMode() {
     document.body.classList.toggle('dark-mode');
 }
 
+  questions.forEach((question) => {
+  question.addEventListener("click", () => {
+    const answer = question.nextElementSibling;
+    answer.classList.toggle("show");
+  });
+});
+  
 document.getElementById('show-special').addEventListener('click', () => {
     const specialText = document.getElementById('daily-special');
     specialText.textContent = "Today's Special: Caramel Macchiato & Lemon Cake!";
