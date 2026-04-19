@@ -12,10 +12,13 @@ menuItems.forEach(function(item) {
   menuList.appendChild(li);
 }); 
 const menuItems = [
-    "Espresso - $3.00",
-    "Cafe Latte - $4.50",
-    "Chocolate Croissant - $3.75",
-    "Green Tea - $3.25"
+Iced Lattes - $4.50
+Hot Coffee - $4.25
+Tea: Green, Chai, Black, Lavender - $3.50
+Iced Matcha - $4.50
+Cake Pops: Strawberry, Oreo, Vanilla - $2.50
+Blueberry, Chocolate, and Rasberry Lemon Muffin - $3.00
+Egg and Cheese BreakFast Sandwhich - $5.00
 ];
 
 const listContainer = document.getElementById('menu-list');
