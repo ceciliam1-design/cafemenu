@@ -5,6 +5,11 @@ menuItems.forEach(function(item) {
   const li = document.createElement('li');
   li.textContent = item;
   container.appendChild(li); 
+
+  items.forEach(item => {
+  let li = document.createElement('li');
+  li.textContent = item;
+  menuList.appendChild(li);
 }); 
 
 const button = document.getElementById("show-special");
